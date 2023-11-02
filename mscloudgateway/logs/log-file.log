@@ -1,0 +1,104 @@
+2023-10-31T20:04:44.152-03:00  INFO 118414 --- [main] t.l.m.MscloudgatewayApplication          : Starting MscloudgatewayApplication using Java 17.0.8.1 with PID 118414 (/home/leo/Documentos/developer/java-projects/microservices-cartoes/mscloudgateway/target/classes started by leo in /home/leo/Documentos/developer/java-projects/microservices-cartoes/mscloudgateway)
+2023-10-31T20:04:44.157-03:00  INFO 118414 --- [main] t.l.m.MscloudgatewayApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-10-31T20:04:46.085-03:00  INFO 118414 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cad406b4-fd93-31e3-85ba-f8011c01ef92
+2023-10-31T20:04:46.187-03:00  INFO 118414 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-31T20:04:46.189-03:00  INFO 118414 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-31T20:04:46.190-03:00  INFO 118414 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-31T20:04:47.186-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-10-31T20:04:47.186-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-10-31T20:04:47.187-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-10-31T20:04:47.187-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-10-31T20:04:47.187-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-10-31T20:04:47.188-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-10-31T20:04:47.188-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-10-31T20:04:47.188-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-10-31T20:04:47.188-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-10-31T20:04:47.188-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-10-31T20:04:47.188-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-31T20:04:47.188-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-31T20:04:47.189-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-10-31T20:04:47.189-03:00  INFO 118414 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-31T20:04:47.848-03:00  INFO 118414 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-10-31T20:04:48.176-03:00  INFO 118414 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-10-31T20:04:48.206-03:00  WARN 118414 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-10-31T20:04:48.262-03:00  INFO 118414 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-10-31T20:04:48.330-03:00  INFO 118414 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-10-31T20:04:48.336-03:00  INFO 118414 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-31T20:04:48.372-03:00  INFO 118414 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-10-31T20:04:48.372-03:00  INFO 118414 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-10-31T20:04:48.372-03:00  INFO 118414 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-10-31T20:04:48.373-03:00  INFO 118414 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-10-31T20:04:48.373-03:00  INFO 118414 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-10-31T20:04:48.373-03:00  INFO 118414 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-10-31T20:04:48.373-03:00  INFO 118414 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-10-31T20:04:49.096-03:00  INFO 118414 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-10-31T20:04:49.106-03:00  INFO 118414 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-10-31T20:04:49.113-03:00  INFO 118414 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-10-31T20:04:49.124-03:00  INFO 118414 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1698793489122 with initial instances count: 4
+2023-10-31T20:04:49.130-03:00  INFO 118414 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSCLOUDGATEWAY with eureka with status UP
+2023-10-31T20:04:49.132-03:00  INFO 118414 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1698793489132, current=UP, previous=STARTING]
+2023-10-31T20:04:49.137-03:00  INFO 118414 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/192.168.1.7:mscloudgateway:8080: registering service...
+2023-10-31T20:04:49.402-03:00  INFO 118414 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/192.168.1.7:mscloudgateway:8080 - registration status: 204
+2023-10-31T20:04:49.516-03:00  INFO 118414 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-10-31T20:04:49.518-03:00  INFO 118414 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2023-10-31T20:04:49.839-03:00  INFO 118414 --- [main] t.l.m.MscloudgatewayApplication          : Started MscloudgatewayApplication in 6.764 seconds (process running for 7.49)
+2023-10-31T20:06:32.043-03:00  INFO 118414 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCLOUDGATEWAY with eureka with status DOWN
+2023-10-31T20:06:32.043-03:00  INFO 118414 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1698793592043, current=DOWN, previous=UP]
+2023-10-31T20:06:32.044-03:00  INFO 118414 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/192.168.1.7:mscloudgateway:8080: registering service...
+2023-10-31T20:06:32.138-03:00  INFO 118414 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/192.168.1.7:mscloudgateway:8080 - registration status: 204
+2023-10-31T20:06:34.077-03:00  INFO 118414 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-10-31T20:06:37.079-03:00  INFO 118414 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-10-31T20:06:37.158-03:00  INFO 118414 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/192.168.1.7:mscloudgateway:8080 - deregister  status: 200
+2023-10-31T20:06:37.165-03:00  INFO 118414 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-10-31T20:06:40.736-03:00  INFO 119062 --- [main] t.l.m.MscloudgatewayApplication          : Starting MscloudgatewayApplication using Java 17.0.8.1 with PID 119062 (/home/leo/Documentos/developer/java-projects/microservices-cartoes/mscloudgateway/target/classes started by leo in /home/leo/Documentos/developer/java-projects/microservices-cartoes/mscloudgateway)
+2023-10-31T20:06:40.740-03:00  INFO 119062 --- [main] t.l.m.MscloudgatewayApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-10-31T20:06:42.576-03:00  INFO 119062 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cad406b4-fd93-31e3-85ba-f8011c01ef92
+2023-10-31T20:06:42.687-03:00  INFO 119062 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-31T20:06:42.688-03:00  INFO 119062 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-31T20:06:42.690-03:00  INFO 119062 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-31T20:06:44.002-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-10-31T20:06:44.003-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-10-31T20:06:44.003-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-10-31T20:06:44.003-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-10-31T20:06:44.003-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-10-31T20:06:44.003-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-10-31T20:06:44.003-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-10-31T20:06:44.004-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-10-31T20:06:44.004-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-10-31T20:06:44.004-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-10-31T20:06:44.004-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-31T20:06:44.004-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-31T20:06:44.004-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-10-31T20:06:44.004-03:00  INFO 119062 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-31T20:06:44.734-03:00  INFO 119062 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-10-31T20:06:45.099-03:00  INFO 119062 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-10-31T20:06:45.142-03:00  WARN 119062 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-10-31T20:06:45.208-03:00  INFO 119062 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-10-31T20:06:45.302-03:00  INFO 119062 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-10-31T20:06:45.310-03:00  INFO 119062 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-31T20:06:45.338-03:00  INFO 119062 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-10-31T20:06:45.343-03:00  INFO 119062 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-10-31T20:06:45.343-03:00  INFO 119062 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-10-31T20:06:45.343-03:00  INFO 119062 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-10-31T20:06:45.343-03:00  INFO 119062 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-10-31T20:06:45.344-03:00  INFO 119062 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-10-31T20:06:45.344-03:00  INFO 119062 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-10-31T20:06:45.898-03:00  INFO 119062 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-10-31T20:06:45.902-03:00  INFO 119062 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-10-31T20:06:45.905-03:00  INFO 119062 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-10-31T20:06:45.912-03:00  INFO 119062 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1698793605911 with initial instances count: 3
+2023-10-31T20:06:45.914-03:00  INFO 119062 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSCLOUDGATEWAY with eureka with status UP
+2023-10-31T20:06:45.915-03:00  INFO 119062 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1698793605915, current=UP, previous=STARTING]
+2023-10-31T20:06:45.918-03:00  INFO 119062 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/192.168.1.7:mscloudgateway:8080: registering service...
+2023-10-31T20:06:46.090-03:00  INFO 119062 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/192.168.1.7:mscloudgateway:8080 - registration status: 204
+2023-10-31T20:06:46.093-03:00  INFO 119062 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-10-31T20:06:46.096-03:00  INFO 119062 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2023-10-31T20:06:46.360-03:00  INFO 119062 --- [main] t.l.m.MscloudgatewayApplication          : Started MscloudgatewayApplication in 6.703 seconds (process running for 7.31)
+2023-10-31T20:07:32.874-03:00  INFO 119062 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCLOUDGATEWAY with eureka with status DOWN
+2023-10-31T20:07:32.875-03:00  INFO 119062 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1698793652875, current=DOWN, previous=UP]
+2023-10-31T20:07:32.875-03:00  INFO 119062 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/192.168.1.7:mscloudgateway:8080: registering service...
+2023-10-31T20:07:32.963-03:00  INFO 119062 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/192.168.1.7:mscloudgateway:8080 - registration status: 204
+2023-10-31T20:07:34.907-03:00  INFO 119062 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-10-31T20:07:37.909-03:00  INFO 119062 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-10-31T20:07:37.987-03:00  INFO 119062 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/192.168.1.7:mscloudgateway:8080 - deregister  status: 200
+2023-10-31T20:07:37.993-03:00  INFO 119062 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

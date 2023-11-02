@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: eurekaserver
+  security:
+    basic:
+      enabled: true
+    user:
+      name: mscredito-eureka-user
+      password: mspass8821
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false

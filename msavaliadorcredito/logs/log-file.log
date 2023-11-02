@@ -1,0 +1,67 @@
+2023-10-31T20:04:17.300-03:00  INFO 118187 --- [restartedMain] t.l.m.MsavaliadorcreditoApplication      : Starting MsavaliadorcreditoApplication using Java 17.0.8.1 with PID 118187 (/home/leo/Documentos/developer/java-projects/microservices-cartoes/msavaliadorcredito/target/classes started by leo in /home/leo/Documentos/developer/java-projects/microservices-cartoes/msavaliadorcredito)
+2023-10-31T20:04:17.303-03:00  INFO 118187 --- [restartedMain] t.l.m.MsavaliadorcreditoApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-10-31T20:04:17.427-03:00  INFO 118187 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-31T20:04:17.427-03:00  INFO 118187 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-31T20:04:19.679-03:00  INFO 118187 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-31T20:04:19.713-03:00  INFO 118187 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+2023-10-31T20:04:20.191-03:00  INFO 118187 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=61b885b0-82f9-3b63-a966-09114fde07eb
+2023-10-31T20:04:20.310-03:00  INFO 118187 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tech.leondev.msavaliadorcredito.infra.clients.CartaoResourceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-31T20:04:20.314-03:00  INFO 118187 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tech.leondev.msavaliadorcredito.infra.clients.ClienteResourceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-10-31T20:04:21.372-03:00  INFO 118187 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-10-31T20:04:21.385-03:00  INFO 118187 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-31T20:04:21.386-03:00  INFO 118187 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-31T20:04:21.474-03:00  INFO 118187 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-31T20:04:21.474-03:00  INFO 118187 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4046 ms
+2023-10-31T20:04:21.657-03:00  INFO 118187 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-31T20:04:21.880-03:00  INFO 118187 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:18503b2b-3e5e-4236-af16-79be6f198f32 user=SA
+2023-10-31T20:04:21.881-03:00  INFO 118187 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-31T20:04:21.898-03:00  INFO 118187 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:18503b2b-3e5e-4236-af16-79be6f198f32'
+2023-10-31T20:04:22.229-03:00  INFO 118187 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-31T20:04:22.280-03:00  INFO 118187 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-10-31T20:04:22.282-03:00  INFO 118187 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-31T20:04:22.567-03:00  INFO 118187 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-31T20:04:22.882-03:00  INFO 118187 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-10-31T20:04:22.886-03:00  INFO 118187 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-31T20:04:23.075-03:00  WARN 118187 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-31T20:04:23.131-03:00  WARN 118187 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-10-31T20:04:23.176-03:00  INFO 118187 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2023-10-31T20:04:23.303-03:00  INFO 118187 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2023-10-31T20:04:24.931-03:00  INFO 118187 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-10-31T20:04:24.974-03:00  WARN 118187 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-10-31T20:04:24.996-03:00  INFO 118187 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-10-31T20:04:25.101-03:00  INFO 118187 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 37793 (http) with context path ''
+2023-10-31T20:04:25.102-03:00  INFO 118187 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 37793
+2023-10-31T20:04:25.106-03:00  INFO 118187 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-10-31T20:04:25.231-03:00  INFO 118187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-10-31T20:04:25.239-03:00  INFO 118187 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-31T20:04:25.270-03:00  INFO 118187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-10-31T20:04:25.272-03:00  INFO 118187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-10-31T20:04:25.272-03:00  INFO 118187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-10-31T20:04:25.273-03:00  INFO 118187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-10-31T20:04:25.274-03:00  INFO 118187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-10-31T20:04:25.274-03:00  INFO 118187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-10-31T20:04:25.274-03:00  INFO 118187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-10-31T20:04:25.797-03:00  INFO 118187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-10-31T20:04:25.802-03:00  INFO 118187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-10-31T20:04:25.807-03:00  INFO 118187 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-10-31T20:04:25.813-03:00  INFO 118187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1698793465812 with initial instances count: 4
+2023-10-31T20:04:25.817-03:00  INFO 118187 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSAVALIADORCREDITO with eureka with status UP
+2023-10-31T20:04:25.818-03:00  INFO 118187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1698793465818, current=UP, previous=STARTING]
+2023-10-31T20:04:25.820-03:00  INFO 118187 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:235a793486fab9f09ea567c790bab945: registering service...
+2023-10-31T20:04:25.933-03:00  INFO 118187 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:235a793486fab9f09ea567c790bab945 - registration status: 204
+2023-10-31T20:04:25.982-03:00  INFO 118187 --- [restartedMain] t.l.m.MsavaliadorcreditoApplication      : Started MsavaliadorcreditoApplication in 9.676 seconds (process running for 10.449)
+2023-10-31T20:05:06.096-03:00  INFO 118187 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-31T20:05:06.097-03:00  INFO 118187 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-31T20:05:06.099-03:00  INFO 118187 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-31T20:08:34.069-03:00  INFO 118187 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
+2023-10-31T20:08:34.071-03:00  INFO 118187 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1698793714071, current=DOWN, previous=UP]
+2023-10-31T20:08:34.071-03:00  INFO 118187 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:235a793486fab9f09ea567c790bab945: registering service...
+2023-10-31T20:08:34.123-03:00  INFO 118187 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-31T20:08:34.196-03:00  INFO 118187 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:235a793486fab9f09ea567c790bab945 - registration status: 204
+2023-10-31T20:08:34.338-03:00  WARN 118187 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-10-31T20:08:34.340-03:00  INFO 118187 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-31T20:08:34.349-03:00  INFO 118187 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-31T20:08:34.350-03:00  INFO 118187 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-10-31T20:08:37.360-03:00  INFO 118187 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-10-31T20:08:37.505-03:00  INFO 118187 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:235a793486fab9f09ea567c790bab945 - deregister  status: 200
+2023-10-31T20:08:37.513-03:00  INFO 118187 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
